@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        /* /////////// navbar start ////////////  */
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: beige;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            position: fixed;
+            width: 100%;
+            z-index: 10000000000;
+        }
+
+        .logo img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 15px;
+            margin: 0 5px;
+        }
+
+        .signup button {
+            padding: 10px 20px;
+            background-color: bisque;
+            border: none;
+            color: black;
+            border-radius: 5px;
+            padding: 10px 20px
+        }
+
+        button a {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* //////navbar end  */
+        /* ///// hero sec */
+        #hero-sec {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 100px 50px;
+            background-color: pink;
+
+        }
+
+        #hero-sect .heroimg #heroimg-1 {
+            height: 300px
+        }
+
+        .heroimg {
+            position: relative
+        }
+
+        #heroimg-2 {
+            position: absolute;
+            top: 50px;
+            left: 90px;
+            width: 100px;
+        }
+         #heroimg-3 {
+            position: absolute;
+            top: 170px;
+            left: 450px;
+            width: 70px;
+        }
+         #heroimg-4 {
+            position: absolute;
+            bottom: 70px;
+            left: 5px;
+            width: 90px;
+        }
+
+        .heroleft  {
+            /* background-color: aqua; */
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+        }
+        #hero-sec .heroleft h1 {
+            font-size: 60px
+        }
+
+        #hero-sec .heroleft p {
+            font-size: 20px;
+            line-height: 40px;
+
+        }
+
+        #hero-sec .heroleft button {
+            font-size: 20px;
+            background-color: #00CA72;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+            width: 200px;
+            border: none;
+        }
+
+        /* ///// heroosection end ////// */
+    </style>
+</head>
+
+<body>
+    <Nav>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo">
+        </div>
+        <div class="links">
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="signup">
+            <button><a href="">Sign Up</a></button>
+        </div>
+    </Nav>
+    <!-- ///////// navbar end ////////// -->
+
+    <!-- //////////// hero section start ////////// -->
+    <section id="hero-sec">
+        <div class="heroleft">
+            <h1>Increase Your <br /> Customers Loyalty <br /> and Satisfaction</h1>
+            <p>We help businesses like yours earn more customers,<br /> standout from competitors, make more money</p>
+            <button>Get Started</button>
+        </div>
+        <div class="heroimg">
+            <img id="heroimg-1" src="images/HeaderLady.png" alt="Hero Image">
+            <img id="heroimg-2" src="images/Frame1.png">
+            <img id="heroimg-3" src="images/Frame2.png">
+            <img id="heroimg-4" src="images/Frame3.png">
+        </div>
+    </section>
+    <!-- //////////// hero section end ////////// -->
+</body>
+
+</html>

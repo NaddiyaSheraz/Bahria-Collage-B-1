@@ -1,0 +1,53 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;   
+} */
+
+/* .nav_logo {
+    background-color: brown;
+}
+
+.nav_link {
+    background-color: chocolate;
+}
+
+#logo {
+    background-color: cornflowerblue;
+} */
+
+nav {
+    background-color: black;
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* gap: 20px; */
+    height: 150px;
+    align-items: center;
+}
+
+.nav_con {
+    width: 100px;
+    height: 100px;
+    background-color: #a15ee8;
+}
+
+#logo, #link, #signup {
+    border: 2px solid rgb(200, 159, 244);
+    /* border-radius: 10px; */
+    /* padding: 10px; */
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#link {
+    border-color: #ED3E52;
+    background-color: #E36B77;
+}
+
+#signup {
+    background-color: #B5699E;
+    border-color: #ce57aa;
+}

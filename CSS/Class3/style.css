@@ -1,0 +1,79 @@
+/* selector declaration */
+/* type selector/ Tag Name */
+/* div {
+    background-color: #cd5c5c;
+    height: 100px;
+    width: 100px;
+
+} */
+
+/* Class Selector */
+
+.container {
+    background-color: IndianRed;
+    height: 220px;
+    width: 200px;
+    /* padding: 10px; */
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    border-bottom:  2px solid IndianRed;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+/* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/*ID selector */
+#con_img {
+    height: 100px;
+    width: 100%;
+    background: LightCoral;
+}
+
+#con_img img {
+    height: 100%;
+    width: 100%;
+}
+
+#con_text {
+    /* background-color: aqua; */
+    height: 100px;
+    color: rgb(206, 195, 195);
+}
+
+#con_text h1 {
+    font-size: 25px;
+}
+
+#con_text p {
+    font-size: 10px;
+    color: darkgray;
+}
+
+.para {
+    color: blue ;
+    font-weight: 900;
+    /* font-style: italic; */
+    text-transform: capitalize;
+    text-transform: lowercase;
+    /* /* text-transform: uppercase; */
+    /* text-decoration: underline;
+    text-decoration: line-through; */ 
+    /* text-decoration: overline; */
+    text-decoration-color: brown;
+    text-decoration-color: crimson;
+    /* letter-spacing: 2px; */
+    /* word-spacing: 2px; */
+    line-height: 30px;
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+    text-shadow: 0px 5px 2px rgb(173, 173, 247);
+    background-color: aquamarine;
+    padding: 2px;
+    margin: 20px;
+}
+
+span {
+    color: chartreuse;
+}

@@ -1,0 +1,57 @@
+/* //universl selector * */
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    padding: 10px;
+    background-image: url(Images/Pak.avif);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.con p {
+    text-align: justify;
+    color: rgb(144, 144, 142);
+} */
+
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: momo_signature;
+    src: url(MomoSignature-Regular.ttf);
+}
+.kanchenjunga-semibold {
+  font-family: "Kanchenjunga", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+div h1{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Black Ops One", system-ui;
+    font-family: momo_signature;
+    font-family: "Kanchenjunga", sans-serif;
+}
+
+i {
+    color: brown;
+    /* background-color: aqua; */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    /* right: 20px; */
+
+}

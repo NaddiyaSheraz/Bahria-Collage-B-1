@@ -1,0 +1,33 @@
+CSS : Cascading Style Sheet
+Apply Css with HTML
+1. Internal
+2. External
+3. Inline
+
+External :
+	seperate File 
+	link with html through
+	    > link tag
+
+3 methods
+	By Tag Name ( type selector)
+	By Class Name
+	By Id Name
+ CSS Styling
+Margin
+	Space outside the box
+Padding
+	Spcae inside the box
+	1 value= top bottom right left (Same)
+	2 values = top bottom (Same) right Left (Same)
+	4 values = top bottom right left (different)
+
+
+
+
+
+Class
+	ek element se zada elements per same styling apply kerne ke liye hum Class attibute ka use kerty hain.
+
+
+
